@@ -5,7 +5,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 // this manifest is used temporarily for development purposes
 //const manifestUrl = 'https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json';
-const manifestUrl = 'https://LifeStyleClarity.github.io/LifeStyleClarity/twa_counter_interact_git/blob/main/dist/tonconnect-manifest.json';
+const manifestUrl = 'https://LifeStyleClarity.github.io/LifeStyleClarity/twa_counter_interact_git/tonconnect-manifest.json';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
     <App />
